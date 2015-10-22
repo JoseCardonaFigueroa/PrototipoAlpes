@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Prueba</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/jquery-1.11.3.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/moment-with-locales.js" charset="utf-8"></script>
+  <script src="js/bootstrap-datetimepicker.js" charset="utf-8"></script>
+</head>
+<div class="" id="navbar">
+
+</div>
+<body>
+  <div class="container">
+    <div class="row">
+      <h2>
+        Planeación
+      </h2>
+      <div class="panel panel-default">
+        <div class="panel-body">
+
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="materia" class="control-label col-md-1">Materia:</label>
+              <div class="col-md-2">
+                <select class="form-control" name="materia" id="materia">
+                  <option value="cienI">Ciencias I</option>
+                  <option value="cienII">Ciencias II</option>
+                </select>
+              </div>
+              <label for="bloques" class="control-label col-md-1">Bloque:</label>
+              <div class="col-md-1">
+                <select class="form-control" name="bloque" id="bloque">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+              <label for="nombreBloque" class="control-label col-md-2">Nombre de bloque:</label>
+              <div class="col-md-5">
+                <input type="text" name="nombreBloque" class="form-control" value="La biodiversidad: El resultado de la evolución">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="tema" class="control-label col-md-1">Tema: </label>
+              <div class="col-md-1">
+                <select class="form-control" name="tema" id="tema">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+              <label for="subtema" class="control-label col-md-1">Subtema: </label>
+              <div class="col-md-1">
+                <select class="form-control" name="subtema" id="subtema">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+              <label for="tema" class="control-label col-md-1">Fecha: </label>
+              <div class='col-md-2' id="fecha">
+                <div class="form-group">
+                  <div class='input-group date' id='datetimepicker6'>
+
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class='col-md-2'>
+                <div class="form-group">
+                  <div class='input-group date' id='datetimepicker7'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <label for="tema" class="control-label col-md-2">Secuencia didáctica: </label>
+              <div class="col-md-1">
+                <select class="form-control" name="tema" id="tema">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="nombreBloque" class="control-label col-md-2">Nombre de bloque:</label>
+              <div class="col-md-7">
+                <input type="text" name="nombreBloque" class="form-control" value="La biodiversidad: El resultado de la evolución">
+              </div>
+              <label for="nombreBloque" class="control-label col-md-2">Número de sesiones:</label>
+              <div class="col-md-1">
+                <input type="number" name="nombreBloque" class="form-control" value="La biodiversidad: El resultado de la evolución">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="panel panel-default panel-success">
+              <div class="panel-heading">
+                <h3 class="text-center">
+                  Inicio
+                </h3>
+              </div>
+              <div class="panel-body">
+
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                        <div class="form-group">
+                          <label for="nombreBloque" class="control-label col-md-2">
+                            <h5>Finalidad:</h5>
+                          </label>
+                          <div class="col-md-7">
+                            <input type="text" name="nombreBloque" class="form-control" value="Deducir y aplicar las fórmulas de pendiente y ángulo entre una recta y el eje “x”">
+                          </div>
+                        </div>
+                    </tr>
+                    <tr>
+
+                      <th>
+
+                      </th>
+                      <th class="col-md-6">
+                        Sesión
+                      </th>
+                      <th>
+                        Evidencias o productos
+                      </th>
+                      <th>
+                        Instrumento de evaluación
+                      </th>
+                      <th>
+                        Material
+                      </th>
+                      <th>
+                        Observaciones
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <b>Motivación</b>
+                      </td>
+                      <td>
+                        Recuperar los conocimientos previos de los estudiantes...
+                      </td>
+                      <td>
+                        Lista de ideas
+                      </td>
+                      <td>
+                        Lista de cotejo
+                      </td>
+                      <td>
+                        <li>Libro</li>
+                        <li>Libreta</li>
+                        <li>iPad</li>
+                      </td>
+                      <td>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td>
+                        <b>Motivación</b>
+                      </td>
+                      <td>
+                        Recuperar los conocimientos previos de los estudiantes...
+                      </td>
+                      <td>
+                        Lista de ideas
+                      </td>
+                      <td>
+                        Lista de cotejo
+                      </td>
+                      <td>
+                        Libro
+                        Libreta
+                        iPad
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
+                  </tbody>
+
+                </table>
+              </div>
+              <div class="panel-footer">Panel footer</div>
+            </div>
+
+          </div>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+$(function () {
+  $('#datetimepicker6').datetimepicker();
+  $('#datetimepicker7').datetimepicker({
+    useCurrent: false //Important! See issue #1075
+  });
+  $("#datetimepicker6").on("dp.change", function (e) {
+    $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+  });
+  $("#datetimepicker7").on("dp.change", function (e) {
+    $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+  });
+  $("#navbar").load("navbar.html");
+});
+</script>
+</html>
